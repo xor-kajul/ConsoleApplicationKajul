@@ -22,3 +22,20 @@ How to Run<br>
 1.Clone this repository.<br>
 2.Navigate to the directory where the program file is located.<br>
 3.Open the index.html in any browser with console open in browser
+
+<br>
++++++++++++++++++++++++++++++++++++++++++++++++
+<br>
+
+Sample Output :<br>
+Enter your Guess:12<br>
+>> "Incorrect Guess, try Again"<br>
+Enter your Guess:28<br>
+>> "Incorrect Guess,try again"<br>
+Enter your Guess:10<br>
+"Guess Correct"<br>
+The application will exit <br>
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+<br>
+Dependency - No dependency
