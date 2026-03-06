@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>JS Console application</title>
+</head>
+
+<script>
+var number=12; // declared the number to be guessed by user
+
+console.log("Welcome to the Number Guessing Game!");
+
+var guessedCorrectly = false; //flag to 
+
+while (!guessedCorrectly) {
+
+	var guess = prompt('Enter your guess?');
+		
+		if(guess == number)
+		{
+
+		console.log("You guessed correctly!");
+        
+		guessedCorrectly = true; // Exit the loop
+
+		}
+		
+		else 
+        {
+       
+        console.log("Oops!!Incorrect");
+        
+        }
+
+}
+
+</script>
+</html>
