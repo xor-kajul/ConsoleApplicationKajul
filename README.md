@@ -28,6 +28,8 @@ How to Run<br>
 <br>
 
 Sample Output :<br>
+Let say Correct Number is 10.<br>
+>>
 Enter your Guess:12<br>
 >> "Incorrect Guess, try Again"<br>
 Enter your Guess:28<br>
