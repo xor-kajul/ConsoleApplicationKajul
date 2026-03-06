@@ -2,7 +2,7 @@ Number Guessing Game
 <hr>
 #Author - [Kajul Verma]
 <br>
-This is simple javascript-based number guessing program where user has to guess the number. If the number is guessed correctly , the output will be 'you guessed correctly' else  it will keep asking the number. 
+This is simple javascript-based number guessing program where user has to guess the number.
 
 <br>
 ++++++++++++++++++++++++++++++++++++++++++++++
