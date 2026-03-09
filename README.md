@@ -11,8 +11,8 @@ How It Works
 <br>
 1.The user is prompted with the popup of browser.<br>
 2.Guessed number needs to be entered in the popup.<br>
-3. If Guess is in correct , the console will return - "Incorrect Guess, Try Again".<br>
-4. If Guess in correct, the console will return - "Guess Correct".<br>
+3. If Guess is in correct , the popup appears - "Incorrect Guess, Try Again".<br>
+4. If Guess in correct, the popup appeas - "Guess Correct".<br>
 5. The program will continue until the correct guess is entered by user. <br>
 
 <br>
