@@ -3,7 +3,6 @@ var myName = "Kajul";
 
 alert("Welcome to the Number Guessing Game :"+" "+myName);
 
-
 var guessedCorrectly = false; 
 
 while (!guessedCorrectly) 
@@ -22,15 +21,18 @@ while (!guessedCorrectly)
 		
 		else 
 			{
-				if(typeof guess !== 'number' || isNaN(guess)) // Check if the input is not a number
-				{
-					alert("Please enter a valid number.");
-					continue; // Skip the rest of the loop and prompt again
-				}
-				
+				validation1(guess);
+				continue; // Continue to the next iteration of the loop without executing the rest of the code
 				
 				alert("Oops!!Incorrect");
 				
 			}
 			
+		function validation1(guess){
+
+			if(typeof guess !== 'number' || isNaN(guess)) // Check if the input is not a number
+				{
+					alert("Its not an Integer,Please enter valid number!!!.");
+				}
+		}	
 	}
