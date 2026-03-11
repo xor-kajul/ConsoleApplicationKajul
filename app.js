@@ -1,6 +1,6 @@
 var number=12; // declared the number to be guessed by user
 
-console.log("Welcome to the Number Guessing Game!");
+alert("Welcome to the Number Guessing Game!");
 
 var guessedCorrectly = false; 
 
