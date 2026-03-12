@@ -1,9 +1,13 @@
 var number=12; // declared the number to be guessed by user 
-var myName = "Kajul";
+var myName;
 
-alert("Welcome to the Number Guessing Game :"+" "+myName);
+
+myName = prompt("Hey, Please enter you name to play the game!!");
+
+alert(`Welcome ${myName} to the Number Guessing Game! I have selected a number between 1 and 20. Can you guess it?`);
 
 var guessedCorrectly = false; 
+
 
 while (!guessedCorrectly) 
 	{
@@ -23,9 +27,7 @@ while (!guessedCorrectly)
 			{
 				validation1(guess);
 				continue; // Continue to the next iteration of the loop without executing the rest of the code
-				
-				alert("Oops!!Incorrect");
-				
+							
 			}
 			
 		function validation1(guess){
@@ -36,3 +38,8 @@ while (!guessedCorrectly)
 				}
 		}	
 	}
+
+
+
+
+
